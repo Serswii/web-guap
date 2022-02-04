@@ -1,0 +1,37 @@
+.sidebar {
+  position: relative;
+  width: 100%;
+  background-color: #dfebef;
+  padding: 20px 40px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+.sidebar a {
+  color: black;
+  padding: 16px;
+  line-height: 34px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  color: #ab3a8d;
+}
+.sidebar a:hover:not(.active) {
+  color: #ab3a8d;
+}
+.sidebar__ol {
+  padding-top: 15px;
+}
+.sidebar__ol ol {
+  list-style: none;
+  counter-reset: li;
+}
+.sidebar__ol li:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}
+
+.content {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

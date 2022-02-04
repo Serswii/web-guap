@@ -1,0 +1,12 @@
+$font-address: '../fonts/';  // каталог где распологаються файлы шрифтов
+
+$font-name: 'Roboto-Light';
+  @font-face {
+    font-family: $font-name;
+    src: url('#{$font-address}#{$font-name}.woff2'),
+    url('#{$font-address}#{$font-name}.woff'),
+    url('#{$font-address}#{$font-name}.eot'),
+    url('#{$font-address}#{$font-name}.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }

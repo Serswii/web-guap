@@ -1,0 +1,35 @@
+$gradient-guap-purple: #ab3a8d;
+.sidebar {
+  position: relative;
+  width: 100%;
+  background-color: #dfebef;
+  padding: 20px 40px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  a {
+    color: black;
+    padding: 16px;
+    line-height: 34px;
+    text-decoration: none;
+  }
+  a.active {
+    color: $gradient-guap-purple;
+  }
+  a:hover:not(.active) {
+    color: $gradient-guap-purple;
+  }
+  &__ol {
+    padding-top: 15px;
+    ol {
+      list-style: none;
+      counter-reset: li;
+    }
+    li:before {
+      counter-increment: li;
+      content: counters(li, ".") ". ";
+    }
+  }
+}
+.content {
+  font-size: 1rem;
+}
