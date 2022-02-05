@@ -1,6 +1,6 @@
 # Install Node.js
 
-Go to the website [Node.js](https://nodejs.org/en/download/)and download the new version to your computer to work with
+Go to the website [Node.js](https://nodejs.org/en/download/) and download the new version to your computer to work with
 Node.js and npm
 
 # Installed package
