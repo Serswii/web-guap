@@ -7,24 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Основные сведения – Сведения об образовательной организации – ГУАП</title>
     <link rel="icon" href="src/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/style.css">
-    <script defer src="src/js/all.js"></script>
-    <script defer src="src/js/bootstrap.min.js"></script>
-    <script src="src/js/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() !== 0) {
-                    $('#top_up').fadeIn();
-                } else {
-                    $('#top_up').fadeOut();
-                }
-            });
-            $('#top_up').click(function () {
-                $('body,html').animate({scrollTop: 0}, 700);
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="src/css/style.min.css">
+    <script src="src/js/library/jquery.min.js"></script>
 </head>
 <body>
 <?php include("views/layouts/_header.html"); ?>
@@ -51,7 +35,7 @@
 
         <section class="common-info page-title">
             <div class="table-responsive-sm">
-                <table class="table table-hover table-bordered table-sm">
+                <table class="table table-hover table-bordered">
                     <tbody>
                     <tr>
                         <th>Дата создания образовательной организации</th>
@@ -156,7 +140,7 @@
                 <h3 class="subtitle"><span>Ивангородский гуманитарно-технический институт (филиал) федерального государственного автономного образовательного учреждения высшего образования «Санкт-Петербургский государственный университет аэрокосмического приборостроения» (ИФ ГУАП)</span>
                 </h3>
                 <div class="table-responsive-sm">
-                    <table class="table table-hover table-bordered table-sm">
+                    <table class="table table-hover table-bordered">
                         <tbody>
                         <tr>
                             <th>Юридический адрес</th>
@@ -234,7 +218,7 @@
                 <h4 class="anchor subtitle__padding" id="schedule_vo">Образовательные программы высшего образования</h4>
                 <p><b>Очная форма обучения</b> — шестидневная учебная неделя с понедельника по субботу.</p>
                 <div class="table-responsive-sm">
-                    <table class="table table-hover table-bordered table-sm">
+                    <table class="table table-hover table-bordered">
                         <tbody>
                         <tr>
                             <th>1 пара</th>
@@ -268,7 +252,7 @@
                 </div>
                 <div class="table-responsive-sm">
                     <p><b>Очно-заочная форма обучения</b> — четырехдневная учебная неделя с понедельника по четверг.</p>
-                    <table class="table table-hover table-bordered table-sm">
+                    <table class="table table-hover table-bordered">
                         <tbody>
                         <tr>
                             <th>6 пара</th>
@@ -286,7 +270,7 @@
                 </h4>
                 <p><b>Очная форма обучения</b> — шестидневная учебная неделя с понедельника по субботу.</p>
                 <div class="table-responsive-sm">
-                    <table class="table table-hover table-bordered table-sm">
+                    <table class="table table-hover table-bordered">
                         <tbody>
                         <tr>
                             <th>1 пара</th>
@@ -492,7 +476,7 @@
                 государственный университет аэрокосмического приборостроения»&nbsp;(ГУАП)
             </p>
             <div class="table-responsive-sm">
-                <table class="table table-hover table-bordered table-sm">
+                <table class="table table-hover table-bordered">
                     <tbody>
                     <tr>
                         <th>ИНН</th>
@@ -546,7 +530,7 @@
                     для безналичных перечислений</a>
             </p>
             <div class="table-responsive-sm">
-                <table class="table table-hover table-bordered table-sm">
+                <table class="table table-hover table-bordered">
                     <tbody>
                     <tr>
                         <th>Получатель</th>
@@ -606,7 +590,7 @@
                     <ul class="dormitory-down">
                         <li>
                             <div class="table-responsive-sm">
-                                <table class="table table-hover table-bordered table-sm">
+                                <table class="table table-hover table-bordered">
                                     <tbody>
                                     <tr>
                                         <th>Адрес</th>
@@ -640,7 +624,7 @@
                         </li>
                         <li>
                             <div class="table-responsive-sm">
-                                <table class="table table-hover table-bordered table-sm">
+                                <table class="table table-hover table-bordered">
                                     <tbody>
                                     <tr>
                                         <th>Адрес</th>
@@ -674,7 +658,7 @@
                         </li>
                         <li>
                             <div class="table-responsive-sm">
-                                <table class="table table-hover table-bordered table-sm">
+                                <table class="table table-hover table-bordered">
                                     <tbody>
                                     <tr>
                                         <th>Адрес</th>

@@ -1,7 +1,7 @@
-@import 'bootstrap.css';
-@import "fonts.css";
-@import "header.css";
-@import "sidebar.css";
+@import '/src/scss/bootstrap.css';
+@import "/src/scss/fonts.css";
+@import "/src/scss/header.css";
+@import "/src/scss/sidebar.css";
 body {
   font-size: 16px;
   font-family: Roboto-Light, sans-serif;

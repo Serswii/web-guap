@@ -1,7 +1,7 @@
-@import 'bootstrap.css';
-@import "fonts.css";
-@import "header.css";
-@import "sidebar.css";
+@import '/src/scss/bootstrap.css';
+@import "/src/scss/fonts.css";
+@import "/src/scss/header.css";
+@import "/src/scss/sidebar.css";
 $base-font-size: 16px;
 $gradient-guap-blue: #005aaa;
 $gradient-guap-purple: #ab3a8d;
@@ -160,7 +160,9 @@ table {
 .breadcrumb-item:last-child {
   padding-left: 0;
 }
-.show {display: block;}
+.show {
+  display: block;
+}
 @media screen and (max-width: 767px) {
   .search__container{
     display: none;
