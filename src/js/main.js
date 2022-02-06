@@ -12,6 +12,9 @@ $(function () {
     $("#barDropdown").click(function(){
         $("#myDropdown").fadeToggle();
     });
+    $("#barDropdown-mobile").click(function(){
+        $("#myDropdown").fadeToggle();
+    });
 });
 // barDropdown.addEventListener("click", dropdown);
 // function dropdown()

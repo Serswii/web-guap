@@ -21,20 +21,53 @@ h1, h2, h3, h4 {
   background-color: #f3f3f3;
 }
 .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 40px;
 }
 .header__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  width: 10%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#site_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-menu {
+  color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: 10px;
+}
+.btn-menu .fa-bars {
+  margin-right: 5px;
+}
+.btn-menu:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#005aaa), color-stop(75%, #ab3a8d), to(#e72b70));
+  background-image: -o-linear-gradient(left, #005aaa, #ab3a8d 75%, #e72b70);
+  background-image: linear-gradient(to right, #005aaa, #ab3a8d 75%, #e72b70);
+  color: white;
 }
 
 .search__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  width: 50%;
 }
 .search__input {
   width: 100%;
@@ -50,9 +83,13 @@ h1, h2, h3, h4 {
   background-position: 95% center;
   border-radius: 50px;
   border: 1px solid #b3b3b7;
+  -webkit-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 .search__input:hover, .search__input:focus {
   padding: 12px 0;
@@ -85,10 +122,15 @@ h1, h2, h3, h4 {
 }
 
 .dropdown__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 2rem;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .dropdown__columns {
   margin: 0 0 40px 0;
@@ -100,5 +142,3 @@ h1, h2, h3, h4 {
 .dropdown__columns:last-child {
   margin: 0;
 }
-
-/*# sourceMappingURL=header.css.map */

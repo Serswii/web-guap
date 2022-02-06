@@ -4,17 +4,18 @@
         <div class="container">
             <div class="row">
                 <div class="header__nav">
-                    <div id="site_logo">
+                    <div id="barDropdown-mobile" class="dropdown col-1 col-md-1 col-sm-1">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div id="site_logo" class="col-8 col-lg-2 col-md-9 col-sm-9">
                         <a href="https://guap.ru"><img src="../../src/images/logo.png" width="100.8" alt="ГУАП"></a>
                     </div>
-                    <div class="search__container">
+                    <div class="search__container col-md-5">
                         <input type="text" class="search__input" placeholder="Поиск" aria-label="Search"
                                aria-describedby="search-addon"/>
                     </div>
-                    <div class="header__end">
-                        <div id="barDropdown" class="dropdown">
-                            <i class="fas fa-bars"></i>
-                        </div>
+                    <div class="header__end col-3 col-lg-4 col-md-2 col-sm-2">
+                        <button id="barDropdown" class="btn btn-menu"><i class="fas fa-bars"></i>Сведения об организации</button>
                         <div class="navigation">
                             <a href="#"><i class="fas fa-sitemap" title="Карта узлов"></i></a>
                         </div>

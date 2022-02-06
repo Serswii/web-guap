@@ -128,6 +128,7 @@ blockquote {
   margin-left: 5px;
 }
 .dropdown{
+  display: none;
   &:hover {
     cursor: pointer;
   }
@@ -164,19 +165,6 @@ table {
   display: block;
 }
 @media screen and (max-width: 767px) {
-  .search__container{
-    display: none;
-  }
-  .search-mobile {
-    display: flex;
-    margin-left: 10px;
-  }
-  .navigation {
-    margin-left: 10px;
-  }
-  .header__nav {
-    justify-content: space-around;
-  }
   .dormitory li {
     background-size: 1.6rem 1.4rem;
     font-size: 14px;
@@ -194,5 +182,46 @@ table {
   }
   .sidebar {
     display: none;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 576px) {
+  #site_logo {
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .header__end {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .dropdown {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .btn-menu {
+    display: none;
+  }
+  .search__container {
+    display: none;
+  }
+  .search-mobile {
+    display: flex;
+  }
+  .dropdown {
+    display: block;
+    cursor: pointer;
+  }
+  .header__end {
+    width: 16.667%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #site_logo {
+    justify-content: center;
+  }
+  .header__end {
+    width: 25%;
   }
 }

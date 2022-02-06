@@ -16,8 +16,10 @@ gulp.task('sass', function(){ // Создаем таск "sass"
 });
 gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
-        'src/js/all.js',
-        'src/js/main.js',
+        'src/js/brands.js',
+        'src/js/fontawesome.js',
+        'src/js/solid.js',
+        'src/js/main.js'
     ])
         .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
