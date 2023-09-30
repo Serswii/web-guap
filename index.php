@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Основные сведения – Сведения об образовательной организации – ГУАП</title>
+    <title>Основные сведения – Сведения об образовательной организации – ГУАП Изменённый сайт</title>
     <link rel="icon" href="src/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/css/style.min.css">
     <script src="src/js/library/jquery.min.js"></script>
